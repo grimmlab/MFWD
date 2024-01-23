@@ -51,5 +51,18 @@ We provide a Dockerfile to train classification models using our data. The code 
 
 
 ## Citing
+Genze, N., Vahl, W.K., Groth, J. et al. Manually annotated and curated Dataset of diverse Weed Species in Maize and Sorghum for Computer Vision. Sci Data 11, 109 (2024). https://doi.org/10.1038/s41597-024-02945-6
 
-TBA
+@article{Genze2024,
+   abstract = {Sustainable weed management strategies are critical to feeding the world’s population while preserving ecosystems and biodiversity. Therefore, site-specific weed control strategies based on automation are needed to reduce the additional time and effort required for weeding. Machine vision-based methods appear to be a promising approach for weed detection, but require high quality data on the species in a specific agricultural area. Here we present a dataset, the Moving Fields Weed Dataset (MFWD), which captures the growth of 28 weed species commonly found in sorghum and maize fields in Germany. A total of 94,321 images were acquired in a fully automated, high-throughput phenotyping facility to track over 5,000 individual plants at high spatial and temporal resolution. A rich set of manually curated ground truth information is also provided, which can be used not only for plant species classification, object detection and instance segmentation tasks, but also for multiple object tracking.},
+   author = {Nikita Genze and Wouter K Vahl and Jennifer Groth and Maximilian Wirth and Michael Grieb and Dominik G Grimm},
+   doi = {10.1038/s41597-024-02945-6},
+   issn = {2052-4463},
+   issue = {1},
+   journal = {Scientific Data},
+   pages = {109},
+   title = {Manually annotated and curated Dataset of diverse Weed Species in Maize and Sorghum for Computer Vision},
+   volume = {11},
+   url = {https://doi.org/10.1038/s41597-024-02945-6},
+   year = {2024},
+}
