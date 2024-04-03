@@ -99,9 +99,9 @@ def create_train_parser():
 if __name__ == "__main__":
     seed_all(seed=42)
     args = create_train_parser()
-    train_folder = Path("/data/MFWD/patches/train")
-    val_folder = Path("/data/MFWD/patches/validation")
-    class_map_f = Path("/data/MFWD/class_map.txt")
+    train_folder = Path("/data/patches/train")
+    val_folder = Path("/data/patches/validation")
+    class_map_f = Path("./data/class_map.txt")
     model_save_path = Path("./models")
     model_save_path.mkdir(parents=True, exist_ok=True)
     log_path = Path("./logs")
